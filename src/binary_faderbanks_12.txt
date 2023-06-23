@@ -52,6 +52,58 @@
 
 [faderbank]
     select = _BANKTOT
+    selectat = 15
+    notches = 2
+    output1 = _F15_1
+    output2 = _F15_2
+    output3 = _F15_3
+    output4 = _F15_4
+    output5 = _F15_5
+    output6 = _F15_6
+    output7 = _F15_7
+    output8 = _F15_8
+
+[faderbank]
+    select = _BANKTOT
+    selectat = 16
+    notches = 2
+    output1 = _F16_1
+    output2 = _F16_2
+    output3 = _F16_3
+    output4 = _F16_4
+    output5 = _F16_5
+    output6 = _F16_6
+    output7 = _F16_7
+    output8 = _F16_8
+
+[faderbank]
+    select = _BANKTOT
+    selectat = 17
+    notches = 2
+    output1 = _F17_1
+    output2 = _F17_2
+    output3 = _F17_3
+    output4 = _F17_4
+    output5 = _F17_5
+    output6 = _F17_6
+    output7 = _F17_7
+    output8 = _F17_8
+
+[faderbank]
+    select = _BANKTOT
+    selectat = 18
+    notches = 2
+    output1 = _F18_1
+    output2 = _F18_2
+    output3 = _F18_3
+    output4 = _F18_4
+    output5 = _F18_5
+    output6 = _F18_6
+    output7 = _F18_7
+    output8 = _F18_8
+
+[faderbank]
+    select = _BANKTOT
     selectat = 21
     notches = 2
     output1 = _F21_1
@@ -147,6 +199,50 @@
     output = _F14
 
 [mixer]
+    input1 = _F15_1 * 128
+    input2 = _F15_2 * 64
+    input3 = _F15_3 * 32
+    input4 = _F15_4 * 16
+    input5 = _F15_5 * 8
+    input6 = _F15_6 * 4
+    input7 = _F15_7 * 2
+    input8 = _F15_8 * 1
+    output = _F15
+
+[mixer]
+    input1 = _F16_1 * 128
+    input2 = _F16_2 * 64
+    input3 = _F16_3 * 32
+    input4 = _F16_4 * 16
+    input5 = _F16_5 * 8
+    input6 = _F16_6 * 4
+    input7 = _F16_7 * 2
+    input8 = _F16_8 * 1
+    output = _F16
+
+[mixer]
+    input1 = _F17_1 * 128
+    input2 = _F17_2 * 64
+    input3 = _F17_3 * 32
+    input4 = _F17_4 * 16
+    input5 = _F17_5 * 8
+    input6 = _F17_6 * 4
+    input7 = _F17_7 * 2
+    input8 = _F17_8 * 1
+    output = _F17
+
+[mixer]
+    input1 = _F18_1 * 128
+    input2 = _F18_2 * 64
+    input3 = _F18_3 * 32
+    input4 = _F18_4 * 16
+    input5 = _F18_5 * 8
+    input6 = _F18_6 * 4
+    input7 = _F18_7 * 2
+    input8 = _F18_8 * 1
+    output = _F18
+
+[mixer]
     input1 = _F21_1 * 128
     input2 = _F21_2 * 64
     input3 = _F21_3 * 32
@@ -221,6 +317,34 @@
 
 [compare]
     input = _BANKTOT
+    compare = 15
+    ifequal = 1
+    else = 0
+    output = _D15
+
+[compare]
+    input = _BANKTOT
+    compare = 16
+    ifequal = 1
+    else = 0
+    output = _D16
+
+[compare]
+    input = _BANKTOT
+    compare = 17
+    ifequal = 1
+    else = 0
+    output = _D17
+
+[compare]
+    input = _BANKTOT
+    compare = 18
+    ifequal = 1
+    else = 0
+    output = _D18
+
+[compare]
+    input = _BANKTOT
     compare = 21
     ifequal = 1
     else = 0
@@ -252,10 +376,28 @@
     input2 = _F12 * _D12
     input3 = _F13 * _D13
     input4 = _F14 * _D14
-    input5 = _F21 * _D21
-    input6 = _F22 * _D22
-    input7 = _F23 * _D23
-    input8 = _F24 * _D24
+    input5 = _F15 * _D15
+    input6 = _F16 * _D16
+    input7 = _F17 * _D17
+    input8 = _F18 * _D18
+    output = _DISPLAY1
+
+[mixer]
+    input1 = _F21 * _D21
+    input2 = _F22 * _D22
+    input3 = _F23 * _D23
+    input4 = _F24 * _D24
+#    input5 = _F25 * _D25
+#    input6 = _F26 * _D26
+#    input7 = _F27 * _D27
+#    input8 = _F28 * _D28
+    output = _DISPLAY2
+
+[compare]
+    input = _DISPLAY1
+    compare = _DISPLAY2
+    ifgreater = _DISPLAY1
+    ifless = _DISPLAY2
     output = _DISPLAY
 
 [copy]
