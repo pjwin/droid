@@ -1,0 +1,264 @@
+[faderbank]
+    select = _BANKTOT
+    selectat = 11
+    notches = 2
+    output1 = _F11_1
+    output2 = _F11_2
+    output3 = _F11_3
+    output4 = _F11_4
+    output5 = _F11_5
+    output6 = _F11_6
+    output7 = _F11_7
+    output8 = _F11_8
+
+[faderbank]
+    select = _BANKTOT
+    selectat = 12
+    notches = 2
+    output1 = _F12_1
+    output2 = _F12_2
+    output3 = _F12_3
+    output4 = _F12_4
+    output5 = _F12_5
+    output6 = _F12_6
+    output7 = _F12_7
+    output8 = _F12_8
+
+[faderbank]
+    select = _BANKTOT
+    selectat = 13
+    notches = 2
+    output1 = _F13_1
+    output2 = _F13_2
+    output3 = _F13_3
+    output4 = _F13_4
+    output5 = _F13_5
+    output6 = _F13_6
+    output7 = _F13_7
+    output8 = _F13_8
+
+[faderbank]
+    select = _BANKTOT
+    selectat = 14
+    notches = 2
+    output1 = _F14_1
+    output2 = _F14_2
+    output3 = _F14_3
+    output4 = _F14_4
+    output5 = _F14_5
+    output6 = _F14_6
+    output7 = _F14_7
+    output8 = _F14_8
+
+[faderbank]
+    select = _BANKTOT
+    selectat = 21
+    notches = 2
+    output1 = _F21_1
+    output2 = _F21_2
+    output3 = _F21_3
+    output4 = _F21_4
+    output5 = _F21_5
+    output6 = _F21_6
+    output7 = _F21_7
+    output8 = _F21_8
+
+[faderbank]
+    select = _BANKTOT
+    selectat = 22
+    notches = 2
+    output1 = _F22_1
+    output2 = _F22_2
+    output3 = _F22_3
+    output4 = _F22_4
+    output5 = _F22_5
+    output6 = _F22_6
+    output7 = _F22_7
+    output8 = _F22_8
+
+[faderbank]
+    select = _BANKTOT
+    selectat = 23
+    notches = 2
+    output1 = _F23_1
+    output2 = _F23_2
+    output3 = _F23_3
+    output4 = _F23_4
+    output5 = _F23_5
+    output6 = _F23_6
+    output7 = _F23_7
+    output8 = _F23_8
+
+[faderbank]
+    select = _BANKTOT
+    selectat = 24
+    notches = 2
+    output1 = _F24_1
+    output2 = _F24_2
+    output3 = _F24_3
+    output4 = _F24_4
+    output5 = _F24_5
+    output6 = _F24_6
+    output7 = _F24_7
+    output8 = _F24_8
+
+[mixer]
+    input1 = _F11_1 * 128
+    input2 = _F11_2 * 64
+    input3 = _F11_3 * 32
+    input4 = _F11_4 * 16
+    input5 = _F11_5 * 8
+    input6 = _F11_6 * 4
+    input7 = _F11_7 * 2
+    input8 = _F11_8 * 1
+    output = _F11
+
+[mixer]
+    input1 = _F12_1 * 128
+    input2 = _F12_2 * 64
+    input3 = _F12_3 * 32
+    input4 = _F12_4 * 16
+    input5 = _F12_5 * 8
+    input6 = _F12_6 * 4
+    input7 = _F12_7 * 2
+    input8 = _F12_8 * 1
+    output = _F12
+
+[mixer]
+    input1 = _F13_1 * 128
+    input2 = _F13_2 * 64
+    input3 = _F13_3 * 32
+    input4 = _F13_4 * 16
+    input5 = _F13_5 * 8
+    input6 = _F13_6 * 4
+    input7 = _F13_7 * 2
+    input8 = _F13_8 * 1
+    output = _F13
+
+[mixer]
+    input1 = _F14_1 * 128
+    input2 = _F14_2 * 64
+    input3 = _F14_3 * 32
+    input4 = _F14_4 * 16
+    input5 = _F14_5 * 8
+    input6 = _F14_6 * 4
+    input7 = _F14_7 * 2
+    input8 = _F14_8 * 1
+    output = _F14
+
+[mixer]
+    input1 = _F21_1 * 128
+    input2 = _F21_2 * 64
+    input3 = _F21_3 * 32
+    input4 = _F21_4 * 16
+    input5 = _F21_5 * 8
+    input6 = _F21_6 * 4
+    input7 = _F21_7 * 2
+    input8 = _F21_8 * 1
+    output = _F21
+
+[mixer]
+    input1 = _F22_1 * 128
+    input2 = _F22_2 * 64
+    input3 = _F22_3 * 32
+    input4 = _F22_4 * 16
+    input5 = _F22_5 * 8
+    input6 = _F22_6 * 4
+    input7 = _F22_7 * 2
+    input8 = _F22_8 * 1
+    output = _F22
+
+[mixer]
+    input1 = _F23_1 * 128
+    input2 = _F23_2 * 64
+    input3 = _F23_3 * 32
+    input4 = _F23_4 * 16
+    input5 = _F23_5 * 8
+    input6 = _F23_6 * 4
+    input7 = _F23_7 * 2
+    input8 = _F23_8 * 1
+    output = _F23
+
+[mixer]
+    input1 = _F24_1 * 128
+    input2 = _F24_2 * 64
+    input3 = _F24_3 * 32
+    input4 = _F24_4 * 16
+    input5 = _F24_5 * 8
+    input6 = _F24_6 * 4
+    input7 = _F24_7 * 2
+    input8 = _F24_8 * 1
+    output = _F24
+
+# Display the active mixer output value
+[compare]
+    input = _BANKTOT
+    compare = 11
+    ifequal = 1
+    else = 0
+    output = _D11
+
+[compare]
+    input = _BANKTOT
+    compare = 12
+    ifequal = 1
+    else = 0
+    output = _D12
+
+[compare]
+    input = _BANKTOT
+    compare = 13
+    ifequal = 1
+    else = 0
+    output = _D13
+
+[compare]
+    input = _BANKTOT
+    compare = 14
+    ifequal = 1
+    else = 0
+    output = _D14
+
+[compare]
+    input = _BANKTOT
+    compare = 21
+    ifequal = 1
+    else = 0
+    output = _D21
+
+[compare]
+    input = _BANKTOT
+    compare = 22
+    ifequal = 1
+    else = 0
+    output = _D22
+
+[compare]
+    input = _BANKTOT
+    compare = 23
+    ifequal = 1
+    else = 0
+    output = _D23
+
+[compare]
+    input = _BANKTOT
+    compare = 24
+    ifequal = 1
+    else = 0
+    output = _D24
+
+[mixer]
+    input1 = _F11 * _D11
+    input2 = _F12 * _D12
+    input3 = _F13 * _D13
+    input4 = _F14 * _D14
+    input5 = _F21 * _D21
+    input6 = _F22 * _D22
+    input7 = _F23 * _D23
+    input8 = _F24 * _D24
+    output = _DISPLAY
+
+[copy]
+    input = _DISPLAY * 0.001
+    output = X1
+
