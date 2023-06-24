@@ -1,7 +1,35 @@
+[buttongroup]
+    select = _BANK1
+    selectat = 30
+    button1 = B3.1
+    button2 = B3.2
+    button3 = B3.3
+    button4 = B3.4
+    button5 = B3.5
+    button6 = B3.6
+    button7 = B3.7
+    button8 = B3.8
+    led1 = L3.1
+    led2 = L3.2
+    led3 = L3.3
+    led4 = L3.4
+    led5 = L3.5
+    led6 = L3.6
+    led7 = L3.7
+    led8 = L3.8
+    output = _MQ3FADER
+
+[switch]
+    offset = S1.3
+    input1 = G11
+    input2 = G10
+    input3 = G9
+    output1 = _MQ3CLOCK
+
 [motoquencer]
     select = L2.3
-    clock = G9
-    mute = S1.3
+    clock = _MQ3CLOCK
+    fadermode = _MQ3FADER
     cv = O1
     gate = G5
 
