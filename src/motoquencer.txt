@@ -1,0 +1,7 @@
+[motoquencer]
+    select = L2.3
+    clock = G9
+    mute = S1.3
+    cv = O1
+    gate = G5
+

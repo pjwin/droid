@@ -1,28 +1,28 @@
 [lfo]
     hz = .0167 * _F11
-    output = G1
+    output = G9
 
 [clocktool]
-    clock = G1
+    clock = G9
     divide = _F13
     multiply = _F14
     dutycycle = 0.5
     delay = 0
-    output = G3
+    output = G10
 
 [clocktool]
-    clock = G1
+    clock = G9
     divide = _F15
     multiply = _F16
     dutycycle = 0.5
     delay = 0
-    output = G5
+    output = G11
 
 [clocktool]
-    clock = G1
+    clock = G9
     divide = _F17
     multiply = _F18
     dutycycle = 0.5
     delay = 0
-    output = G7
+    output = G12
 
