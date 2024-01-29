@@ -154,6 +154,58 @@
     output7 = _F24_7
     output8 = _F24_8
 
+[faderbank]
+    select = _BANKTOT
+    selectat = 25
+    notches = 2
+    output1 = _F25_1
+    output2 = _F25_2
+    output3 = _F25_3
+    output4 = _F25_4
+    output5 = _F25_5
+    output6 = _F25_6
+    output7 = _F25_7
+    output8 = _F25_8
+
+[faderbank]
+    select = _BANKTOT
+    selectat = 26
+    notches = 2
+    output1 = _F26_1
+    output2 = _F26_2
+    output3 = _F26_3
+    output4 = _F26_4
+    output5 = _F26_5
+    output6 = _F26_6
+    output7 = _F26_7
+    output8 = _F26_8
+
+[faderbank]
+    select = _BANKTOT
+    selectat = 27
+    notches = 2
+    output1 = _F27_1
+    output2 = _F27_2
+    output3 = _F27_3
+    output4 = _F27_4
+    output5 = _F27_5
+    output6 = _F27_6
+    output7 = _F27_7
+    output8 = _F27_8
+
+[faderbank]
+    select = _BANKTOT
+    selectat = 28
+    notches = 2
+    output1 = _F28_1
+    output2 = _F28_2
+    output3 = _F28_3
+    output4 = _F28_4
+    output5 = _F28_5
+    output6 = _F28_6
+    output7 = _F28_7
+    output8 = _F28_8
+
 [mixer]
     input1 = _F11_1 * 128
     input2 = _F11_2 * 64
@@ -286,6 +338,50 @@
     input8 = _F24_8 * 1
     output = _F24
 
+[mixer]
+    input1 = _F25_1 * 128
+    input2 = _F25_2 * 64
+    input3 = _F25_3 * 32
+    input4 = _F25_4 * 16
+    input5 = _F25_5 * 8
+    input6 = _F25_6 * 4
+    input7 = _F25_7 * 2
+    input8 = _F25_8 * 1
+    output = _F25
+
+[mixer]
+    input1 = _F26_1 * 128
+    input2 = _F26_2 * 64
+    input3 = _F26_3 * 32
+    input4 = _F26_4 * 16
+    input5 = _F26_5 * 8
+    input6 = _F26_6 * 4
+    input7 = _F26_7 * 2
+    input8 = _F26_8 * 1
+    output = _F26
+
+[mixer]
+    input1 = _F27_1 * 128
+    input2 = _F27_2 * 64
+    input3 = _F27_3 * 32
+    input4 = _F27_4 * 16
+    input5 = _F27_5 * 8
+    input6 = _F27_6 * 4
+    input7 = _F27_7 * 2
+    input8 = _F27_8 * 1
+    output = _F27
+
+[mixer]
+    input1 = _F28_1 * 128
+    input2 = _F28_2 * 64
+    input3 = _F28_3 * 32
+    input4 = _F28_4 * 16
+    input5 = _F28_5 * 8
+    input6 = _F28_6 * 4
+    input7 = _F28_7 * 2
+    input8 = _F28_8 * 1
+    output = _F28
+
 # Display the active mixer output value
 [compare]
     input = _BANKTOT
@@ -371,6 +467,34 @@
     else = 0
     output = _D24
 
+[compare]
+    input = _BANKTOT
+    compare = 25
+    ifequal = 1
+    else = 0
+    output = _D25
+
+[compare]
+    input = _BANKTOT
+    compare = 26
+    ifequal = 1
+    else = 0
+    output = _D26
+
+[compare]
+    input = _BANKTOT
+    compare = 27
+    ifequal = 1
+    else = 0
+    output = _D27
+
+[compare]
+    input = _BANKTOT
+    compare = 28
+    ifequal = 1
+    else = 0
+    output = _D28
+
 [mixer]
     input1 = _F11 * _D11
     input2 = _F12 * _D12
@@ -387,10 +511,10 @@
     input2 = _F22 * _D22
     input3 = _F23 * _D23
     input4 = _F24 * _D24
-#    input5 = _F25 * _D25
-#    input6 = _F26 * _D26
-#    input7 = _F27 * _D27
-#    input8 = _F28 * _D28
+    input5 = _F25 * _D25
+    input6 = _F26 * _D26
+    input7 = _F27 * _D27
+    input8 = _F28 * _D28
     output = _DISPLAY2
 
 [compare]

@@ -1,3 +1,4 @@
+# motoquencer 1
 [buttongroup]
     select = _BANK1
     selectat = 30
@@ -32,4 +33,40 @@
     fadermode = _MQ3FADER
     cv = O1
     gate = G5
+
+# motoquencer 2
+[buttongroup]
+    select = _BANK1
+    selectat = 40
+    button1 = B4.1
+    button2 = B4.2
+    button3 = B4.3
+    button4 = B4.4
+    button5 = B4.5
+    button6 = B4.6
+    button7 = B4.7
+    button8 = B4.8
+    led1 = L4.1
+    led2 = L4.2
+    led3 = L4.3
+    led4 = L4.4
+    led5 = L4.5
+    led6 = L4.6
+    led7 = L4.7
+    led8 = L4.8
+    output = _MQ4FADER
+
+[switch]
+    offset = S1.4
+    input1 = G11
+    input2 = G10
+    input3 = G9
+    output1 = _MQ4CLOCK
+
+[motoquencer]
+    select = L2.4
+    clock = _MQ4CLOCK
+    fadermode = _MQ4FADER
+    cv = O2
+    gate = G6
 
