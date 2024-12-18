@@ -10,64 +10,64 @@
 # -------------------------------------------------
 # BUTTONS
 # -------------------------------------------------
-# This will output the left bank of 8 buttons as the 10s place
 [buttongroup]
-    button1 = B2.1
-    button2 = B2.2
-    button3 = B2.3
-    button4 = B2.4
-    button5 = B2.5
-    button6 = B2.6
-    button7 = B2.7
-    button8 = B2.8
-    led1 = L2.1
-    led2 = L2.2
-    led3 = L2.3
-    led4 = L2.4
-    led5 = L2.5
-    led6 = L2.6
-    led7 = L2.7
-    led8 = L2.8
-    value1 = 10
-    value2 = 20
-    value3 = 30
-    value4 = 40
-    value5 = 50
-    value6 = 60
-    value7 = 70
-    value8 = 80
-    output = _BANK1
+    b1 = B2.1
+    b2 = B2.2
+    b3 = B2.3
+    b4 = B2.4
+    b5 = B2.5
+    b6 = B2.6
+    b7 = B2.7
+    b8 = B2.8
+    l1 = L2.1
+    l2 = L2.2
+    l3 = L2.3
+    l4 = L2.4
+    l5 = L2.5
+    l6 = L2.6
+    l7 = L2.7
+    l8 = L2.8
+    v1 = 1
+    v2 = 2
+    v3 = 3
+    v4 = 4
+    v5 = 5
+    v6 = 6
+    v7 = 7
+    v8 = 8
+    o = _BK1
 
-# This will output the right bank of 8 buttons as the 1s place
 [buttongroup]
-    button1 = B3.1
-    button2 = B3.2
-    button3 = B3.3
-    button4 = B3.4
-    button5 = B3.5
-    button6 = B3.6
-    button7 = B3.7
-    button8 = B3.8
-    led1 = L3.1
-    led2 = L3.2
-    led3 = L3.3
-    led4 = L3.4
-    led5 = L3.5
-    led6 = L3.6
-    led7 = L3.7
-    led8 = L3.8
-    value1 = 1
-    value2 = 2
-    value3 = 3
-    value4 = 4
-    value5 = 5
-    value6 = 6
-    value7 = 7
-    value8 = 8
-    output = _BANK2
+    s = _BK1
+    sa = 1
+    b1 = B3.1
+    b2 = B3.2
+    b3 = B3.3
+    b4 = B3.4
+    b5 = B3.5
+    b6 = B3.6
+    b7 = B3.7
+    b8 = B3.8
+    l1 = L3.1
+    l2 = L3.2
+    l3 = L3.3
+    l4 = L3.4
+    l5 = L3.5
+    l6 = L3.6
+    l7 = L3.7
+    l8 = L3.8
+    v1 = 1
+    v2 = 2
+    v3 = 3
+    v4 = 4
+    v5 = 5
+    v6 = 6
+    v7 = 7
+    v8 = 8
+    o = _BK2
 
 [math]
-    input1 = _BANK1
-    input2 = _BANK2
-    sum = _BANKTOT
+    i1 = _BK1 * 10
+    i2 = _BK2
+    s = _BKTOT
 

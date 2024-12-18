@@ -1,530 +1,217 @@
 [faderbank]
-    select = _BANKTOT
-    selectat = 11
-    notches = 2
-    output1 = _F11_1
-    output2 = _F11_2
-    output3 = _F11_3
-    output4 = _F11_4
-    output5 = _F11_5
-    output6 = _F11_6
-    output7 = _F11_7
-    output8 = _F11_8
+    s = _BKTOT
+    sa = 11
+    n = 2
+    o1 = _F1_1
+    o2 = _F1_2
+    o3 = _F1_3
+    o4 = _F1_4
+    o5 = _F1_5
+    o6 = _F1_6
+    o7 = _F1_7
+    o8 = _F1_8
 
 [faderbank]
-    select = _BANKTOT
-    selectat = 12
-    notches = 2
-    output1 = _F12_1
-    output2 = _F12_2
-    output3 = _F12_3
-    output4 = _F12_4
-    output5 = _F12_5
-    output6 = _F12_6
-    output7 = _F12_7
-    output8 = _F12_8
+    s = _BKTOT
+    sa = 12
+    n = 2
+    o1 = _F2_1
+    o2 = _F2_2
+    o3 = _F2_3
+    o4 = _F2_4
+    o5 = _F2_5
+    o6 = _F2_6
+    o7 = _F2_7
+    o8 = _F2_8
 
 [faderbank]
-    select = _BANKTOT
-    selectat = 13
-    notches = 2
-    output1 = _F13_1
-    output2 = _F13_2
-    output3 = _F13_3
-    output4 = _F13_4
-    output5 = _F13_5
-    output6 = _F13_6
-    output7 = _F13_7
-    output8 = _F13_8
+    s = _BKTOT
+    sa = 13
+    n = 2
+    o1 = _F3_1
+    o2 = _F3_2
+    o3 = _F3_3
+    o4 = _F3_4
+    o5 = _F3_5
+    o6 = _F3_6
+    o7 = _F3_7
+    o8 = _F3_8
 
 [faderbank]
-    select = _BANKTOT
-    selectat = 14
-    notches = 2
-    output1 = _F14_1
-    output2 = _F14_2
-    output3 = _F14_3
-    output4 = _F14_4
-    output5 = _F14_5
-    output6 = _F14_6
-    output7 = _F14_7
-    output8 = _F14_8
+    s = _BKTOT
+    sa = 14
+    n = 2
+    o1 = _F4_1
+    o2 = _F4_2
+    o3 = _F4_3
+    o4 = _F4_4
+    o5 = _F4_5
+    o6 = _F4_6
+    o7 = _F4_7
+    o8 = _F4_8
 
 [faderbank]
-    select = _BANKTOT
-    selectat = 15
-    notches = 2
-    output1 = _F15_1
-    output2 = _F15_2
-    output3 = _F15_3
-    output4 = _F15_4
-    output5 = _F15_5
-    output6 = _F15_6
-    output7 = _F15_7
-    output8 = _F15_8
+    s = _BKTOT
+    sa = 15
+    n = 2
+    o1 = _F5_1
+    o2 = _F5_2
+    o3 = _F5_3
+    o4 = _F5_4
+    o5 = _F5_5
+    o6 = _F5_6
+    o7 = _F5_7
+    o8 = _F5_8
 
 [faderbank]
-    select = _BANKTOT
-    selectat = 16
-    notches = 2
-    output1 = _F16_1
-    output2 = _F16_2
-    output3 = _F16_3
-    output4 = _F16_4
-    output5 = _F16_5
-    output6 = _F16_6
-    output7 = _F16_7
-    output8 = _F16_8
+    s = _BKTOT
+    sa = 16
+    n = 2
+    o1 = _F6_1
+    o2 = _F6_2
+    o3 = _F6_3
+    o4 = _F6_4
+    o5 = _F6_5
+    o6 = _F6_6
+    o7 = _F6_7
+    o8 = _F6_8
 
 [faderbank]
-    select = _BANKTOT
-    selectat = 17
-    notches = 2
-    output1 = _F17_1
-    output2 = _F17_2
-    output3 = _F17_3
-    output4 = _F17_4
-    output5 = _F17_5
-    output6 = _F17_6
-    output7 = _F17_7
-    output8 = _F17_8
+    s = _BKTOT
+    sa = 17
+    n = 2
+    o1 = _F7_1
+    o2 = _F7_2
+    o3 = _F7_3
+    o4 = _F7_4
+    o5 = _F7_5
+    o6 = _F7_6
+    o7 = _F7_7
+    o8 = _F7_8
 
 [faderbank]
-    select = _BANKTOT
-    selectat = 18
-    notches = 2
-    output1 = _F18_1
-    output2 = _F18_2
-    output3 = _F18_3
-    output4 = _F18_4
-    output5 = _F18_5
-    output6 = _F18_6
-    output7 = _F18_7
-    output8 = _F18_8
-
-[faderbank]
-    select = _BANKTOT
-    selectat = 21
-    notches = 2
-    output1 = _F21_1
-    output2 = _F21_2
-    output3 = _F21_3
-    output4 = _F21_4
-    output5 = _F21_5
-    output6 = _F21_6
-    output7 = _F21_7
-    output8 = _F21_8
-
-[faderbank]
-    select = _BANKTOT
-    selectat = 22
-    notches = 2
-    output1 = _F22_1
-    output2 = _F22_2
-    output3 = _F22_3
-    output4 = _F22_4
-    output5 = _F22_5
-    output6 = _F22_6
-    output7 = _F22_7
-    output8 = _F22_8
-
-[faderbank]
-    select = _BANKTOT
-    selectat = 23
-    notches = 2
-    output1 = _F23_1
-    output2 = _F23_2
-    output3 = _F23_3
-    output4 = _F23_4
-    output5 = _F23_5
-    output6 = _F23_6
-    output7 = _F23_7
-    output8 = _F23_8
-
-[faderbank]
-    select = _BANKTOT
-    selectat = 24
-    notches = 2
-    output1 = _F24_1
-    output2 = _F24_2
-    output3 = _F24_3
-    output4 = _F24_4
-    output5 = _F24_5
-    output6 = _F24_6
-    output7 = _F24_7
-    output8 = _F24_8
-
-[faderbank]
-    select = _BANKTOT
-    selectat = 25
-    notches = 2
-    output1 = _F25_1
-    output2 = _F25_2
-    output3 = _F25_3
-    output4 = _F25_4
-    output5 = _F25_5
-    output6 = _F25_6
-    output7 = _F25_7
-    output8 = _F25_8
-
-[faderbank]
-    select = _BANKTOT
-    selectat = 26
-    notches = 2
-    output1 = _F26_1
-    output2 = _F26_2
-    output3 = _F26_3
-    output4 = _F26_4
-    output5 = _F26_5
-    output6 = _F26_6
-    output7 = _F26_7
-    output8 = _F26_8
-
-[faderbank]
-    select = _BANKTOT
-    selectat = 27
-    notches = 2
-    output1 = _F27_1
-    output2 = _F27_2
-    output3 = _F27_3
-    output4 = _F27_4
-    output5 = _F27_5
-    output6 = _F27_6
-    output7 = _F27_7
-    output8 = _F27_8
-
-[faderbank]
-    select = _BANKTOT
-    selectat = 28
-    notches = 2
-    output1 = _F28_1
-    output2 = _F28_2
-    output3 = _F28_3
-    output4 = _F28_4
-    output5 = _F28_5
-    output6 = _F28_6
-    output7 = _F28_7
-    output8 = _F28_8
+    s = _BKTOT
+    sa = 18
+    n = 2
+    o1 = _F8_1
+    o2 = _F8_2
+    o3 = _F8_3
+    o4 = _F8_4
+    o5 = _F8_5
+    o6 = _F8_6
+    o7 = _F8_7
+    o8 = _F8_8
 
 [mixer]
-    input1 = _F11_1 * 128
-    input2 = _F11_2 * 64
-    input3 = _F11_3 * 32
-    input4 = _F11_4 * 16
-    input5 = _F11_5 * 8
-    input6 = _F11_6 * 4
-    input7 = _F11_7 * 2
-    input8 = _F11_8 * 1
-    output = _F11
+    i1 = _F1_1 * 128
+    i2 = _F1_2 * 64
+    i3 = _F1_3 * 32
+    i4 = _F1_4 * 16
+    i5 = _F1_5 * 8
+    i6 = _F1_6 * 4
+    i7 = _F1_7 * 2
+    i8 = _F1_8 * 1
+    o = _F1
 
 [mixer]
-    input1 = _F12_1 * 128
-    input2 = _F12_2 * 64
-    input3 = _F12_3 * 32
-    input4 = _F12_4 * 16
-    input5 = _F12_5 * 8
-    input6 = _F12_6 * 4
-    input7 = _F12_7 * 2
-    input8 = _F12_8 * 1
-    output = _F12
+    i1 = _F2_1 * 128
+    i2 = _F2_2 * 64
+    i3 = _F2_3 * 32
+    i4 = _F2_4 * 16
+    i5 = _F2_5 * 8
+    i6 = _F2_6 * 4
+    i7 = _F2_7 * 2
+    i8 = _F2_8 * 1
+    o = _F2
 
 [mixer]
-    input1 = _F13_1 * 128
-    input2 = _F13_2 * 64
-    input3 = _F13_3 * 32
-    input4 = _F13_4 * 16
-    input5 = _F13_5 * 8
-    input6 = _F13_6 * 4
-    input7 = _F13_7 * 2
-    input8 = _F13_8 * 1
-    output = _F13
+    i1 = _F3_1 * 128
+    i2 = _F3_2 * 64
+    i3 = _F3_3 * 32
+    i4 = _F3_4 * 16
+    i5 = _F3_5 * 8
+    i6 = _F3_6 * 4
+    i7 = _F3_7 * 2
+    i8 = _F3_8 * 1
+    o = _F3
 
 [mixer]
-    input1 = _F14_1 * 128
-    input2 = _F14_2 * 64
-    input3 = _F14_3 * 32
-    input4 = _F14_4 * 16
-    input5 = _F14_5 * 8
-    input6 = _F14_6 * 4
-    input7 = _F14_7 * 2
-    input8 = _F14_8 * 1
-    output = _F14
+    i1 = _F4_1 * 128
+    i2 = _F4_2 * 64
+    i3 = _F4_3 * 32
+    i4 = _F4_4 * 16
+    i5 = _F4_5 * 8
+    i6 = _F4_6 * 4
+    i7 = _F4_7 * 2
+    i8 = _F4_8 * 1
+    o = _F4
 
 [mixer]
-    input1 = _F15_1 * 128
-    input2 = _F15_2 * 64
-    input3 = _F15_3 * 32
-    input4 = _F15_4 * 16
-    input5 = _F15_5 * 8
-    input6 = _F15_6 * 4
-    input7 = _F15_7 * 2
-    input8 = _F15_8 * 1
-    output = _F15
+    i1 = _F5_1 * 128
+    i2 = _F5_2 * 64
+    i3 = _F5_3 * 32
+    i4 = _F5_4 * 16
+    i5 = _F5_5 * 8
+    i6 = _F5_6 * 4
+    i7 = _F5_7 * 2
+    i8 = _F5_8 * 1
+    o = _F5
 
 [mixer]
-    input1 = _F16_1 * 128
-    input2 = _F16_2 * 64
-    input3 = _F16_3 * 32
-    input4 = _F16_4 * 16
-    input5 = _F16_5 * 8
-    input6 = _F16_6 * 4
-    input7 = _F16_7 * 2
-    input8 = _F16_8 * 1
-    output = _F16
+    i1 = _F6_1 * 128
+    i2 = _F6_2 * 64
+    i3 = _F6_3 * 32
+    i4 = _F6_4 * 16
+    i5 = _F6_5 * 8
+    i6 = _F6_6 * 4
+    i7 = _F6_7 * 2
+    i8 = _F6_8 * 1
+    o = _F6
 
 [mixer]
-    input1 = _F17_1 * 128
-    input2 = _F17_2 * 64
-    input3 = _F17_3 * 32
-    input4 = _F17_4 * 16
-    input5 = _F17_5 * 8
-    input6 = _F17_6 * 4
-    input7 = _F17_7 * 2
-    input8 = _F17_8 * 1
-    output = _F17
+    i1 = _F7_1 * 128
+    i2 = _F7_2 * 64
+    i3 = _F7_3 * 32
+    i4 = _F7_4 * 16
+    i5 = _F7_5 * 8
+    i6 = _F7_6 * 4
+    i7 = _F7_7 * 2
+    i8 = _F7_8 * 1
+    o = _F7
 
 [mixer]
-    input1 = _F18_1 * 128
-    input2 = _F18_2 * 64
-    input3 = _F18_3 * 32
-    input4 = _F18_4 * 16
-    input5 = _F18_5 * 8
-    input6 = _F18_6 * 4
-    input7 = _F18_7 * 2
-    input8 = _F18_8 * 1
-    output = _F18
-
-[mixer]
-    input1 = _F21_1 * 128
-    input2 = _F21_2 * 64
-    input3 = _F21_3 * 32
-    input4 = _F21_4 * 16
-    input5 = _F21_5 * 8
-    input6 = _F21_6 * 4
-    input7 = _F21_7 * 2
-    input8 = _F21_8 * 1
-    output = _F21
-
-[mixer]
-    input1 = _F22_1 * 128
-    input2 = _F22_2 * 64
-    input3 = _F22_3 * 32
-    input4 = _F22_4 * 16
-    input5 = _F22_5 * 8
-    input6 = _F22_6 * 4
-    input7 = _F22_7 * 2
-    input8 = _F22_8 * 1
-    output = _F22
-
-[mixer]
-    input1 = _F23_1 * 128
-    input2 = _F23_2 * 64
-    input3 = _F23_3 * 32
-    input4 = _F23_4 * 16
-    input5 = _F23_5 * 8
-    input6 = _F23_6 * 4
-    input7 = _F23_7 * 2
-    input8 = _F23_8 * 1
-    output = _F23
-
-[mixer]
-    input1 = _F24_1 * 128
-    input2 = _F24_2 * 64
-    input3 = _F24_3 * 32
-    input4 = _F24_4 * 16
-    input5 = _F24_5 * 8
-    input6 = _F24_6 * 4
-    input7 = _F24_7 * 2
-    input8 = _F24_8 * 1
-    output = _F24
-
-[mixer]
-    input1 = _F25_1 * 128
-    input2 = _F25_2 * 64
-    input3 = _F25_3 * 32
-    input4 = _F25_4 * 16
-    input5 = _F25_5 * 8
-    input6 = _F25_6 * 4
-    input7 = _F25_7 * 2
-    input8 = _F25_8 * 1
-    output = _F25
-
-[mixer]
-    input1 = _F26_1 * 128
-    input2 = _F26_2 * 64
-    input3 = _F26_3 * 32
-    input4 = _F26_4 * 16
-    input5 = _F26_5 * 8
-    input6 = _F26_6 * 4
-    input7 = _F26_7 * 2
-    input8 = _F26_8 * 1
-    output = _F26
-
-[mixer]
-    input1 = _F27_1 * 128
-    input2 = _F27_2 * 64
-    input3 = _F27_3 * 32
-    input4 = _F27_4 * 16
-    input5 = _F27_5 * 8
-    input6 = _F27_6 * 4
-    input7 = _F27_7 * 2
-    input8 = _F27_8 * 1
-    output = _F27
-
-[mixer]
-    input1 = _F28_1 * 128
-    input2 = _F28_2 * 64
-    input3 = _F28_3 * 32
-    input4 = _F28_4 * 16
-    input5 = _F28_5 * 8
-    input6 = _F28_6 * 4
-    input7 = _F28_7 * 2
-    input8 = _F28_8 * 1
-    output = _F28
+    i1 = _F8_1 * 128
+    i2 = _F8_2 * 64
+    i3 = _F8_3 * 32
+    i4 = _F8_4 * 16
+    i5 = _F8_5 * 8
+    i6 = _F8_6 * 4
+    i7 = _F8_7 * 2
+    i8 = _F8_8 * 1
+    o = _F8
 
 # Display the active mixer output value
-[compare]
-    input = _BANKTOT
-    compare = 11
-    ifequal = 1
-    else = 0
-    output = _D11
-
-[compare]
-    input = _BANKTOT
-    compare = 12
-    ifequal = 1
-    else = 0
-    output = _D12
-
-[compare]
-    input = _BANKTOT
-    compare = 13
-    ifequal = 1
-    else = 0
-    output = _D13
-
-[compare]
-    input = _BANKTOT
-    compare = 14
-    ifequal = 1
-    else = 0
-    output = _D14
-
-[compare]
-    input = _BANKTOT
-    compare = 15
-    ifequal = 1
-    else = 0
-    output = _D15
-
-[compare]
-    input = _BANKTOT
-    compare = 16
-    ifequal = 1
-    else = 0
-    output = _D16
-
-[compare]
-    input = _BANKTOT
-    compare = 17
-    ifequal = 1
-    else = 0
-    output = _D17
-
-[compare]
-    input = _BANKTOT
-    compare = 18
-    ifequal = 1
-    else = 0
-    output = _D18
-
-[compare]
-    input = _BANKTOT
-    compare = 21
-    ifequal = 1
-    else = 0
-    output = _D21
-
-[compare]
-    input = _BANKTOT
-    compare = 22
-    ifequal = 1
-    else = 0
-    output = _D22
-
-[compare]
-    input = _BANKTOT
-    compare = 23
-    ifequal = 1
-    else = 0
-    output = _D23
-
-[compare]
-    input = _BANKTOT
-    compare = 24
-    ifequal = 1
-    else = 0
-    output = _D24
-
-[compare]
-    input = _BANKTOT
-    compare = 25
-    ifequal = 1
-    else = 0
-    output = _D25
-
-[compare]
-    input = _BANKTOT
-    compare = 26
-    ifequal = 1
-    else = 0
-    output = _D26
-
-[compare]
-    input = _BANKTOT
-    compare = 27
-    ifequal = 1
-    else = 0
-    output = _D27
-
-[compare]
-    input = _BANKTOT
-    compare = 28
-    ifequal = 1
-    else = 0
-    output = _D28
-
-[mixer]
-    input1 = _F11 * _D11
-    input2 = _F12 * _D12
-    input3 = _F13 * _D13
-    input4 = _F14 * _D14
-    input5 = _F15 * _D15
-    input6 = _F16 * _D16
-    input7 = _F17 * _D17
-    input8 = _F18 * _D18
-    output = _DISPLAY1
-
-[mixer]
-    input1 = _F21 * _D21
-    input2 = _F22 * _D22
-    input3 = _F23 * _D23
-    input4 = _F24 * _D24
-    input5 = _F25 * _D25
-    input6 = _F26 * _D26
-    input7 = _F27 * _D27
-    input8 = _F28 * _D28
-    output = _DISPLAY2
-
-[compare]
-    input = _DISPLAY1
-    compare = _DISPLAY2
-    ifgreater = _DISPLAY1
-    ifless = _DISPLAY2
-    output = _DISPLAY
+[multicompare]
+    i = _BKTOT
+    c1 = 11
+    if1 = _F1
+    c2 = 12
+    if2 = _F2
+    c3 = 13
+    if3 = _F3
+    c4 = 14
+    if4 = _F4
+    c5 = 15
+    if5 = _F5
+    c6 = 16
+    if6 = _F6
+    c7 = 17
+    if7 = _F7
+    c8 = 18
+    if8 = _F8
+    e = 0
+    o = _DSP
 
 [copy]
-    input = _DISPLAY * 0.001
-    output = X1
-
+    i = _DSP * .001
+    o = X1
