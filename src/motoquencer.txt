@@ -26,3 +26,32 @@
     c = I1
     cv = O1
     g = G1
+
+[buttongroup]
+    s = _BK1
+    sa = 4
+    b1 = B3.1
+    b2 = B3.2
+    b3 = B3.3
+    b4 = B3.4
+    b5 = B3.5
+    b6 = B3.6
+    b7 = B3.7
+    b8 = B3.8
+    l1 = L3.1
+    l2 = L3.2
+    l3 = L3.3
+    l4 = L3.4
+    l5 = L3.5
+    l6 = L3.6
+    l7 = L3.7
+    l8 = L3.8
+    o = _MQF2
+
+[motoquencer]
+    s = _BK1
+    sa = 4
+    fm = _MQF2
+    c = I1
+    cv = O2
+    g = G2

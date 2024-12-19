@@ -1,0 +1,28 @@
+[faderbank]
+    s = _BK1
+    sa = 2
+    n = 0
+    o1 = _F21_1
+    o2 = _F21_2
+    o3 = _F21_3
+    o4 = _F21_4
+    o5 = _F21_5
+    o6 = _F21_6
+    o7 = _F21_7
+    o8 = _F21_8
+
+[contour]
+    gate = G1
+    attack = _F21_1
+    decay = _F21_2
+    sustain = _F21_3
+    release = _F21_4
+    output = O5
+
+[contour]
+    gate = G2
+    attack = _F21_5
+    decay = _F21_6
+    sustain = _F21_7
+    release = _F21_8
+    output = O6
