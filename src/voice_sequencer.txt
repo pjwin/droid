@@ -1,6 +1,6 @@
 [buttongroup]
-    s = _BK1
-    sa = 3
+    s = _TOP_MENU_PLUS_SUBMENU1
+    sa = 130
     b1 = B3.1
     b2 = B3.2
     b3 = B3.3
@@ -17,19 +17,19 @@
     l6 = L3.6
     l7 = L3.7
     l8 = L3.8
-    o = _MQF1
+    o = _MQF130
 
 [motoquencer]
-    s = _BK1
-    sa = 3
-    fm = _MQF1
+    s = _TOP_MENU_PLUS_SUBMENU1
+    sa = 130
+    fm = _MQF130
     c = I1
     cv = O1
-    g = G1
+    g = O5
 
 [buttongroup]
-    s = _BK1
-    sa = 4
+    s = _TOP_MENU_PLUS_SUBMENU1
+    sa = 140
     b1 = B3.1
     b2 = B3.2
     b3 = B3.3
@@ -46,12 +46,12 @@
     l6 = L3.6
     l7 = L3.7
     l8 = L3.8
-    o = _MQF2
+    o = _MQF140
 
 [motoquencer]
-    s = _BK1
-    sa = 4
-    fm = _MQF2
+    s = _TOP_MENU_PLUS_SUBMENU1
+    sa = 140
+    fm = _MQF140
     c = I1
     cv = O2
-    g = G2
+    g = O6

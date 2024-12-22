@@ -1,5 +1,5 @@
 [faderbank]
-    s = _BK1
+    s = _BK01
     sa = 2
     n = 0
     o1 = _F21_1

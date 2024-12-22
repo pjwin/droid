@@ -1,7 +1,8 @@
 #!/bin/bash
 
 output_file="droid.ini"  # Specify the name of the output file
-file_list=("basicmenus.txt" "binary_faderbanks.txt" "clocktool.txt" "motoquencer.txt" "contour.txt")  # List of files to concatenate
+#file_list=("basicmenus.txt" "binary_faderbanks.txt" "clocktool.txt" "voice_sequencer.txt" "contour.txt")  # List of files to concatenate
+file_list=("basicmenus.txt" "binary_faderbanks.txt" "clocktool.txt" "voice_sequencer.txt"  "drum_sequencer.txt")  # List of files to concatenate
 
 # Generate a timestamp suffix
 timestamp=$(date +"%Y%m%d%H%M%S")

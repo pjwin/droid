@@ -1,6 +1,9 @@
+# -------------------------------------------------
+# Binary Faderbanks
+# -------------------------------------------------
 [faderbank]
-    s = _BKTOT
-    sa = 11
+    s = _MENU_TOT
+    sa = 111
     n = 2
     o1 = _F11_1
     o2 = _F11_2
@@ -12,8 +15,8 @@
     o8 = _F11_8
 
 [faderbank]
-    s = _BKTOT
-    sa = 12
+    s = _MENU_TOT
+    sa = 112
     n = 2
     o1 = _F12_1
     o2 = _F12_2
@@ -25,8 +28,8 @@
     o8 = _F12_8
 
 [faderbank]
-    s = _BKTOT
-    sa = 13
+    s = _MENU_TOT
+    sa = 113
     n = 2
     o1 = _F13_1
     o2 = _F13_2
@@ -38,8 +41,8 @@
     o8 = _F13_8
 
 [faderbank]
-    s = _BKTOT
-    sa = 14
+    s = _MENU_TOT
+    sa = 114
     n = 2
     o1 = _F14_1
     o2 = _F14_2
@@ -51,8 +54,8 @@
     o8 = _F14_8
 
 [faderbank]
-    s = _BKTOT
-    sa = 15
+    s = _MENU_TOT
+    sa = 115
     n = 2
     o1 = _F15_1
     o2 = _F15_2
@@ -64,8 +67,8 @@
     o8 = _F15_8
 
 [faderbank]
-    s = _BKTOT
-    sa = 16
+    s = _MENU_TOT
+    sa = 116
     n = 2
     o1 = _F16_1
     o2 = _F16_2
@@ -77,8 +80,8 @@
     o8 = _F16_8
 
 [faderbank]
-    s = _BKTOT
-    sa = 17
+    s = _MENU_TOT
+    sa = 117
     n = 2
     o1 = _F17_1
     o2 = _F17_2
@@ -90,8 +93,8 @@
     o8 = _F17_8
 
 [faderbank]
-    s = _BKTOT
-    sa = 18
+    s = _MENU_TOT
+    sa = 118
     n = 2
     o1 = _F18_1
     o2 = _F18_2
@@ -192,22 +195,22 @@
 
 # Display the active mixer output value
 [multicompare]
-    i = _BKTOT
-    c1 = 11
+    i = _MENU_TOT
+    c1 = 111
     if1 = _F11
-    c2 = 12
+    c2 = 112
     if2 = _F12
-    c3 = 13
+    c3 = 113
     if3 = _F13
-    c4 = 14
+    c4 = 114
     if4 = _F14
-    c5 = 15
+    c5 = 115
     if5 = _F15
-    c6 = 16
+    c6 = 116
     if6 = _F16
-    c7 = 17
+    c7 = 117
     if7 = _F17
-    c8 = 18
+    c8 = 118
     if8 = _F18
     e = 0
     o = _DSP
