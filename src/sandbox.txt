@@ -1,0 +1,169 @@
+#Controller 1 [db8e]:
+#    B1.1:       0    B1.2:       0    B1.3:       0    B1.4:       0
+#    B1.5:       0    B1.6:       0    B1.7:       0    B1.8:       0
+#    B1.9:       0
+#    L1.1:   0.000    L1.2:   0.000    L1.3:   0.000    L1.4:   0.000
+#    L1.5:   0.000    L1.6:   0.000    L1.7:   0.000    L1.8:   0.000
+#    L1.9:   0.000
+#
+#Controller 2 [s10]:
+#    S2.1:       0    S2.2:       0    S2.3:       0    S2.4:       0
+#    S2.5:       0    S2.6:       0    S2.7:       0    S2.8:       0
+#    S2.9:       0    S2.10:      0
+#
+#Controller 3 [p2b8]:
+#    B3.1:       0    B3.2:       0    B3.3:       0    B3.4:       0
+#    B3.5:       0    B3.6:       0    B3.7:       0    B3.8:       0
+#    L3.1:   0.000    L3.2:   0.000    L3.3:   0.000    L3.4:   0.000
+#    L3.5:   0.000    L3.6:   0.000    L3.7:   0.000    L3.8:   0.000
+#    P3.1:  0.0000    P3.2:  0.0000
+#
+#Controller 4 [p2b8]:
+#    B4.1:       0    B4.2:       0    B4.3:       0    B4.4:       0
+#    B4.5:       0    B4.6:       0    B4.7:       0    B4.8:       0
+#    L4.1:   0.000    L4.2:   0.000    L4.3:   0.000    L4.4:   0.000
+#    L4.5:   0.000    L4.6:   0.000    L4.7:   0.000    L4.8:   0.000
+#    P4.1:  0.0000    P4.2:  0.0000
+#
+#Controller 5 [e4]:
+#    B5.1:       0    B5.2:       0    B5.3:       0    B5.4:       0
+#    L5.1:   0.000    L5.2:   0.000    L5.3:   0.000    L5.4:   0.000
+#
+#Controller 6 [m4]:
+#    B6.1:       0    B6.2:       0    B6.3:       0    B6.4:       0
+#    L6.1:   0.000    L6.2:   0.000    L6.3:   0.000    L6.4:   0.000
+#    P6.1:  0.0000    P6.2:  0.0000    P6.3:  0.0000    P6.4:  0.0000
+#    R6.1:   0.000    R6.2:   0.000    R6.3:   0.000    R6.4:   0.000
+#
+#Controller 7 [m4]:
+#    B7.1:       0    B7.2:       0    B7.3:       0    B7.4:       0
+#    L7.1:   0.000    L7.2:   0.000    L7.3:   0.000    L7.4:   0.000
+#    P7.1:  0.0000    P7.2:  0.0000    P7.3:  0.0000    P7.4:  0.0000
+#    R7.1:   0.000    R7.2:   0.000    R7.3:   0.000    R7.4:   0.000
+
+#[buttongroup]
+#    button1 = B3.1
+#    button2 = B3.2
+#    button3 = B3.3
+#    led1 = L3.1
+#    led2 = L3.2
+#    led3 = L3.3
+#    output = _BUTTON
+#[encoder]
+#    encoder = E5.1
+#    select = L3.1
+#    discrete = 20
+#    outputoffset = 1
+#    output = O1
+#[encoder]
+#    encoder = E5.1
+#    select = L3.2
+#    discrete = 20
+#    outputoffset = 1
+#    output = O2
+#[encoder]
+#    encoder = E5.1
+#    select = L3.3
+#    discrete = 20
+#    outputoffset = 1
+#    output = O3
+
+# display circuit only ever sends something to the display if it changes
+
+#Sending a value of 0.0 to such a register makes the corresponding LED dark. Other values select a color at full
+#brightness. Here is the table of colors (intermediate values give intermediate colors):
+#0.2 cyan
+#0.4 green
+#0.6 yellow
+#0.73 orange
+#0.8 red
+#1.0 magenta
+#1.1 violet
+#1.2 blue
+
+#[switch]
+#    input1 = O1
+#    input2 = O2
+#    input3 = O3
+#    offset = _BUTTON
+#    output = _TEXT
+
+#[dac]
+#    bit1 =
+
+
+[buttongroup]
+    button1 = B3.1
+    button2 = B3.2
+    button3 = B4.1
+    button4 = B4.2
+    button5 = B3.3
+    button6 = B3.4
+    button7 = B4.3
+    button8 = B4.4
+    button9 = B3.5
+    button10 = B3.6
+    button11 = B4.5
+    button12 = B4.6
+    button13 = B3.7
+    button14 = B3.8
+    button15 = B4.7
+    button16 = B4.8
+    led1 = L3.1
+    led2 = L3.2
+    led3 = L4.1
+    led4 = L4.2
+    led5 = L3.3
+    led6 = L3.4
+    led7 = L4.3
+    led8 = L4.4
+    led9 = L3.5
+    led10 = L3.6
+    led11 = L4.5
+    led12 = L4.6
+    led13 = L3.7
+    led14 = L3.8
+    led15 = L4.7
+    led16 = L4.8
+    value1 = 1
+    value2 = 2
+    value3 = 3
+    value4 = 4
+    value5 = 5
+    value6 = 6
+    value7 = 7
+    value8 = 8
+    value9 = 9
+    value10 = 10
+    value11 = 11
+    value12 = 12
+    value13 = 13
+    value14 = 14
+    value15 = 15
+    value16 = 16
+    o = _MENUVALUE
+    display = 0
+
+[switch]
+    input1  = "1. Clocktool"
+    input2  = "2. Clocktool"
+    input3  = "3. Clocktool"
+    input4  = "4. Unused"
+    input5  = "5. Unused"
+    input6  = "6. Unused"
+    input7  = "7. Unused"
+    input8  = "8. Unused"
+    input9  = "9. Unused"
+    input10 = "10. Unused"
+    input11 = "11. Unused"
+    input12 = "12. Unused"
+    input13 = "13. Unused"
+    input14 = "14. Unused"
+    input15 = "15. Unused"
+    input16 = "16. Unused"
+    offset = _MENUVALUE - 1
+    output1 = _MENUTEXT
+
+[display]
+    text = _MENUTEXT
+    linger = 1

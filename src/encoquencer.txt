@@ -1,0 +1,4 @@
+[encoquencer]
+    clock = I1
+    cv = O3
+    gate = O7

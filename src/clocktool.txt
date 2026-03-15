@@ -2,30 +2,101 @@
 # Clock Tools
 # -------------------------------------------------
 [lfo]
-    hz = .0167 * _F11
-    o = N1
+    hz = .0167 * B5.1
+    output = N1
 
 [copy]
-    i = I1
-    o = G9
+    input = I1
+    output = G9
+
+[motorfader]
+    select = _MENUTOT
+    selectat = 11
+    fader = 1
+    notches = 20
+    ledvalue = 1
+    ledcolor = 0.8
+    output = _C1DIV
+
+[motorfader]
+    select = _MENUTOT
+    selectat = 11
+    fader = 2
+    notches = 20
+    ledvalue = 1
+    ledcolor = 0.4
+    output = _C1MULT
+
+[motorfader]
+    select = _MENUTOT
+    selectat = 11
+    fader = 3
+    notches = 0
+    ledcolor = 0
+    output = _CX1
+
+[motorfader]
+    select = _MENUTOT
+    selectat = 11
+    fader = 4
+    notches = 20
+    ledvalue = 1
+    ledcolor = 0.8
+    output = _C2DIV
+
+[motorfader]
+    select = _MENUTOT
+    selectat = 11
+    fader = 5
+    notches = 20
+    ledvalue = 1
+    ledcolor = 0.4
+    output = _C2MULT
+
+[motorfader]
+    select = _MENUTOT
+    selectat = 11
+    fader = 6
+    notches = 0
+    ledcolor = 0
+    output = _CX2
+
+[motorfader]
+    select = _MENUTOT
+    selectat = 11
+    fader = 7
+    notches = 20
+    ledvalue = 1
+    ledcolor = 0.8
+    output = _C3DIV
+
+[motorfader]
+    select = _MENUTOT
+    selectat = 11
+    fader = 8
+    notches = 20
+    ledvalue = 1
+    ledcolor = 0.4
+    output = _C3MULT
+
 
 [clocktool]
-    c = I1
-    d = _F13
-    m = _F14
-    dl = 0
-    o = G10
+    clock = I1
+    divide = _C1DIV
+    multiply = _C1MULT
+    delay = 0
+    output = G10
 
 [clocktool]
-    c = I1
-    d = _F15
-    m = _F16
-    dl = 0
-    o = G11
+    clock = I1
+    divide = _C2DIV
+    multiply = _C2MULT
+    delay = 0
+    output = G11
 
 [clocktool]
-    c = I1
-    d = _F17
-    m = _F18
-    dl = 0
-    o = G12
+    clock = I1
+    divide = _C3DIV
+    multiply = _C3MULT
+    delay = 0
+    output = G12
