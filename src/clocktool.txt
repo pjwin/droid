@@ -1,8 +1,57 @@
 # -------------------------------------------------
 # Clock Tools
 # -------------------------------------------------
+[encoder]
+    encoder = E6.1
+    select = L2.1
+    autozoom = 1
+    discrete = 300
+    startvalue = 120
+    button = _EB1
+    clear = _EB1
+    output = _BPM
+
+[encoder]
+    encoder = E6.2
+    select = L2.1
+    autozoom = 0.5
+    mode = 2
+    outputscale = 10V
+    startvalue = 0
+    color = 0.4 # green
+    negativecolor = 0.8 # red
+    button = _EB2
+    clear = _EB2
+    output = _DELAY1
+
+[encoder]
+    encoder = E6.3
+    select = L2.1
+    autozoom = 0.5
+    mode = 2
+    outputscale = 10V
+    startvalue = 0
+    color = 0.4 # green
+    negativecolor = 0.8 # red
+    button = _EB3
+    clear = _EB3
+    output = _DELAY2
+
+[encoder]
+    encoder = E6.4
+    select = L2.1
+    autozoom = 0.5
+    mode = 2
+    outputscale = 10V
+    startvalue = 0
+    color = 0.4 # green
+    negativecolor = 0.8 # red
+    button = _EB4
+    clear = _EB4
+    output = _DELAY3
+
 [lfo]
-    hz = .0167 * B5.1
+    hz = .067 * _BPM
     output = N1
 
 [copy]
@@ -10,93 +59,101 @@
     output = G9
 
 [motorfader]
-    select = _MENUTOT
-    selectat = 11
+    select = _MENU
+    selectat = 1
     fader = 1
     notches = 20
-    ledvalue = 1
-    ledcolor = 0.8
-    output = _C1DIV
-
-[motorfader]
-    select = _MENUTOT
-    selectat = 11
-    fader = 2
-    notches = 20
+    outputoffset = 1
     ledvalue = 1
     ledcolor = 0.4
     output = _C1MULT
 
 [motorfader]
-    select = _MENUTOT
-    selectat = 11
+    select = _MENU
+    selectat = 1
+    fader = 2
+    notches = 20
+    outputoffset = 1
+    ledvalue = 1
+    ledcolor = 0.8
+    output = _C1DIV
+
+[motorfader]
+    select = _MENU
+    selectat = 1
     fader = 3
     notches = 0
     ledcolor = 0
     output = _CX1
 
 [motorfader]
-    select = _MENUTOT
-    selectat = 11
+    select = _MENU
+    selectat = 1
     fader = 4
     notches = 20
-    ledvalue = 1
-    ledcolor = 0.8
-    output = _C2DIV
-
-[motorfader]
-    select = _MENUTOT
-    selectat = 11
-    fader = 5
-    notches = 20
+    outputoffset = 1
     ledvalue = 1
     ledcolor = 0.4
     output = _C2MULT
 
 [motorfader]
-    select = _MENUTOT
-    selectat = 11
+    select = _MENU
+    selectat = 1
+    fader = 5
+    notches = 20
+    outputoffset = 1
+    ledvalue = 1
+    ledcolor = 0.8
+    output = _C2DIV
+
+[motorfader]
+    select = _MENU
+    selectat = 1
     fader = 6
     notches = 0
     ledcolor = 0
     output = _CX2
 
 [motorfader]
-    select = _MENUTOT
-    selectat = 11
+    select = _MENU
+    selectat = 1
     fader = 7
     notches = 20
-    ledvalue = 1
-    ledcolor = 0.8
-    output = _C3DIV
-
-[motorfader]
-    select = _MENUTOT
-    selectat = 11
-    fader = 8
-    notches = 20
+    outputoffset = 1
     ledvalue = 1
     ledcolor = 0.4
     output = _C3MULT
 
+[motorfader]
+    select = _MENU
+    selectat = 1
+    fader = 8
+    notches = 20
+    outputoffset = 1
+    ledvalue = 1
+    ledcolor = 0.8
+    output = _C3DIV
 
 [clocktool]
     clock = I1
     divide = _C1DIV
     multiply = _C1MULT
-    delay = 0
+    delay = _DELAY1
+    dutycycle = 0.5
     output = G10
 
 [clocktool]
     clock = I1
     divide = _C2DIV
     multiply = _C2MULT
-    delay = 0
+    delay = _DELAY2
+    dutycycle = 0.5
     output = G11
 
 [clocktool]
     clock = I1
     divide = _C3DIV
     multiply = _C3MULT
-    delay = 0
+    delay = _DELAY3
+    dutycycle = 0.5
     output = G12

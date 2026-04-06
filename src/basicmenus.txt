@@ -2,6 +2,7 @@
 # Controllers
 # -------------------------------------------------
 [db8e]
+[b32]
 [s10]
 [p2b8]
 [p2b8]
@@ -10,405 +11,104 @@
 [m4]
 
 [buttongroup]
-    button1 = B3.1
-    button2 = B3.2
-    button3 = B3.3
-    button4 = B3.4
-    button5 = B3.5
-    button6 = B3.6
-    button7 = B3.7
-    button8 = B3.8
-    led1 = L3.1
-    led2 = L3.2
-    led3 = L3.3
-    led4 = L3.4
-    led5 = L3.5
-    led6 = L3.6
-    led7 = L3.7
-    led8 = L3.8
-    value1 = 10
-    value2 = 20
-    value3 = 30
-    value4 = 40
-    value5 = 50
-    value6 = 60
-    value7 = 70
-    value8 = 80
-    output = _TOPMENU
-    display = 0
-
-[buttongroup]
-    select = L3.1
-    button1 = B4.1
-    button2 = B4.2
-    button3 = B4.3
-    button4 = B4.4
-    button5 = B4.5
-    button6 = B4.6
-    button7 = B4.7
-    button8 = B4.8
-    led1 = L4.1
-    led2 = L4.2
-    led3 = L4.3
-    led4 = L4.4
-    led5 = L4.5
-    led6 = L4.6
-    led7 = L4.7
-    led8 = L4.8
-    value1 = 1
-    value2 = 2
-    value3 = 3
-    value4 = 4
-    value5 = 5
-    value6 = 6
-    value7 = 7
-    value8 = 8
-    output = _SUBMENU1
-    display = 0
-
-[buttongroup]
-    select = L3.2
-    button1 = B4.1
-    button2 = B4.2
-    button3 = B4.3
-    button4 = B4.4
-    button5 = B4.5
-    button6 = B4.6
-    button7 = B4.7
-    button8 = B4.8
-    led1 = L4.1
-    led2 = L4.2
-    led3 = L4.3
-    led4 = L4.4
-    led5 = L4.5
-    led6 = L4.6
-    led7 = L4.7
-    led8 = L4.8
-    value1 = 1
-    value2 = 2
-    value3 = 3
-    value4 = 4
-    value5 = 5
-    value6 = 6
-    value7 = 7
-    value8 = 8
-    output = _SUBMENU2
-    display = 0
-
-[buttongroup]
-    select = L3.3
-    button1 = B4.1
-    button2 = B4.2
-    button3 = B4.3
-    button4 = B4.4
-    button5 = B4.5
-    button6 = B4.6
-    button7 = B4.7
-    button8 = B4.8
-    led1 = L4.1
-    led2 = L4.2
-    led3 = L4.3
-    led4 = L4.4
-    led5 = L4.5
-    led6 = L4.6
-    led7 = L4.7
-    led8 = L4.8
-    value1 = 1
-    value2 = 2
-    value3 = 3
-    value4 = 4
-    value5 = 5
-    value6 = 6
-    value7 = 7
-    value8 = 8
-    output = _SUBMENU3
-    display = 0
-
-[buttongroup]
-    select = L3.4
-    button1 = B4.1
-    button2 = B4.2
-    button3 = B4.3
-    button4 = B4.4
-    button5 = B4.5
-    button6 = B4.6
-    button7 = B4.7
-    button8 = B4.8
-    led1 = L4.1
-    led2 = L4.2
-    led3 = L4.3
-    led4 = L4.4
-    led5 = L4.5
-    led6 = L4.6
-    led7 = L4.7
-    led8 = L4.8
-    value1 = 1
-    value2 = 2
-    value3 = 3
-    value4 = 4
-    value5 = 5
-    value6 = 6
-    value7 = 7
-    value8 = 8
-    output = _SUBMENU4
-    display = 0
-
-[buttongroup]
-    select = L3.5
-    button1 = B4.1
-    button2 = B4.2
-    button3 = B4.3
-    button4 = B4.4
-    button5 = B4.5
-    button6 = B4.6
-    button7 = B4.7
-    button8 = B4.8
-    led1 = L4.1
-    led2 = L4.2
-    led3 = L4.3
-    led4 = L4.4
-    led5 = L4.5
-    led6 = L4.6
-    led7 = L4.7
-    led8 = L4.8
-    value1 = 1
-    value2 = 2
-    value3 = 3
-    value4 = 4
-    value5 = 5
-    value6 = 6
-    value7 = 7
-    value8 = 8
-    output = _SUBMENU5
-    display = 0
-
-[buttongroup]
-    select = L3.6
-    button1 = B4.1
-    button2 = B4.2
-    button3 = B4.3
-    button4 = B4.4
-    button5 = B4.5
-    button6 = B4.6
-    button7 = B4.7
-    button8 = B4.8
-    led1 = L4.1
-    led2 = L4.2
-    led3 = L4.3
-    led4 = L4.4
-    led5 = L4.5
-    led6 = L4.6
-    led7 = L4.7
-    led8 = L4.8
-    value1 = 1
-    value2 = 2
-    value3 = 3
-    value4 = 4
-    value5 = 5
-    value6 = 6
-    value7 = 7
-    value8 = 8
-    output = _SUBMENU6
-    display = 0
-
-[buttongroup]
-    select = L3.7
-    button1 = B4.1
-    button2 = B4.2
-    button3 = B4.3
-    button4 = B4.4
-    button5 = B4.5
-    button6 = B4.6
-    button7 = B4.7
-    button8 = B4.8
-    led1 = L4.1
-    led2 = L4.2
-    led3 = L4.3
-    led4 = L4.4
-    led5 = L4.5
-    led6 = L4.6
-    led7 = L4.7
-    led8 = L4.8
-    value1 = 1
-    value2 = 2
-    value3 = 3
-    value4 = 4
-    value5 = 5
-    value6 = 6
-    value7 = 7
-    value8 = 8
-    output = _SUBMENU7
-    display = 0
-
-[buttongroup]
-    select = L3.8
-    button1 = B4.1
-    button2 = B4.2
-    button3 = B4.3
-    button4 = B4.4
-    button5 = B4.5
-    button6 = B4.6
-    button7 = B4.7
-    button8 = B4.8
-    led1 = L4.1
-    led2 = L4.2
-    led3 = L4.3
-    led4 = L4.4
-    led5 = L4.5
-    led6 = L4.6
-    led7 = L4.7
-    led8 = L4.8
-    value1 = 1
-    value2 = 2
-    value3 = 3
-    value4 = 4
-    value5 = 5
-    value6 = 6
-    value7 = 7
-    value8 = 8
-    output = _SUBMENU8
-    display = 0
-
-[case]
-    case1 = L3.1
-    value1 = _SUBMENU1
-    case2 = L3.2
-    value2 = _SUBMENU2
-    case3 = L3.3
-    value3 = _SUBMENU3
-    case4 = L3.4
-    value4 = _SUBMENU4
-    case5 = L3.5
-    value5 = _SUBMENU5
-    case6 = L3.6
-    value6 = _SUBMENU6
-    case7 = L3.7
-    value7 = _SUBMENU7
-    case8 = L3.8
-    value8 = _SUBMENU8
-    o = _SUBMENU
-
-[math]
-    input1 = _TOPMENU
-    input2 = _SUBMENU
-    sum = _MENUTOT
-
-[switch]
-    input1 = "1.1 Clocktool"
-    input2 = "1.2"
-    input3 = "1.3"
-    input4 = "1.4"
-    input5 = "1.5"
-    input6 = "1.6"
-    input7 = "1.7"
-    input8 = "1.8"
-    offset = _SUBMENU1 -1
-    output1 = _MENUTEXT1
-
-[switch]
-    input1 = "2.1 Drum"
-    input2 = "2.2 Drum"
-    input3 = "2.3 Drum"
-    input4 = "2.4 Drum"
-    input5 = "2.5 Drum"
-    input6 = "2.6 Drum"
-    input7 = "2.7"
-    input8 = "2.8"
-    offset = _SUBMENU2 -1
-    output1 = _MENUTEXT2
-
-[switch]
-    input1 = "3.1"
-    input2 = "3.2"
-    input3 = "3.3"
-    input4 = "3.4"
-    input5 = "3.5"
-    input6 = "3.6"
-    input7 = "3.7"
-    input8 = "3.8"
-    offset = _SUBMENU3 -1
-    output1 = _MENUTEXT3
-
-[switch]
-    input1 = "4.1"
-    input2 = "4.2"
-    input3 = "4.3"
-    input4 = "4.4"
-    input5 = "4.5"
-    input6 = "4.6"
-    input7 = "4.7"
-    input8 = "4.8"
-    offset = _SUBMENU4 -1
-    output1 = _MENUTEXT4
-
-[switch]
-    input1 = "5.1"
-    input2 = "5.2"
-    input3 = "5.3"
-    input4 = "5.4"
-    input5 = "5.5"
-    input6 = "5.6"
-    input7 = "5.7"
-    input8 = "5.8"
-    offset = _SUBMENU5 -1
-    output1 = _MENUTEXT5
-
-[switch]
-    input1 = "6.1"
-    input2 = "6.2"
-    input3 = "6.3"
-    input4 = "6.4"
-    input5 = "6.5"
-    input6 = "6.6"
-    input7 = "6.7"
-    input8 = "6.8"
-    offset = _SUBMENU6 -1
-    output1 = _MENUTEXT6
-
-[switch]
-    input1 = "7.1"
-    input2 = "7.2"
-    input3 = "7.3"
-    input4 = "7.4"
-    input5 = "7.5"
-    input6 = "7.6"
-    input7 = "7.7"
-    input8 = "7.8"
-    offset = _SUBMENU7 -1
-    output1 = _MENUTEXT7
-
-[switch]
-    input1 = "8.1"
-    input2 = "8.2"
-    input3 = "8.3"
-    input4 = "8.4"
-    input5 = "8.5"
-    input6 = "8.6"
-    input7 = "8.7"
-    input8 = "8.8"
-    offset = _SUBMENU8 -1
-    output1 = _MENUTEXT8
-
-[case]
-    case1 = L3.1
-    value1 = _MENUTEXT1
-    case2 = L3.2
-    value2 = _MENUTEXT2
-    case3 = L3.3
-    value3 = _MENUTEXT3
-    case4 = L3.4
-    value4 = _MENUTEXT4
-    case5 = L3.5
-    value5 = _MENUTEXT5
-    case6 = L3.6
-    value6 = _MENUTEXT6
-    case7 = L3.7
-    value7 = _MENUTEXT7
-    case8 = L3.8
-    value8 = _MENUTEXT8
-    o = _MENUTEXT
+    button1 = B2.1
+    button2 = B2.2
+    button3 = B2.3
+    button4 = B2.4
+    button5 = B2.5
+    button6 = B2.6
+    button7 = B2.7
+    button8 = B2.8
+    button9 = B2.9
+    button10 = B2.10
+    button11 = B2.11
+    button12 = B2.12
+    button13 = B2.13
+    button14 = B2.14
+    button15 = B2.15
+    button16 = B2.16
+    button17 = B2.17
+    button18 = B2.18
+    button19 = B2.19
+    button20 = B2.20
+    button21 = B2.21
+    button22 = B2.22
+    button23 = B2.23
+    button24 = B2.24
+    button25 = B2.25
+    button26 = B2.26
+    button27 = B2.27
+    button28 = B2.28
+    button29 = B2.29
+    button30 = B2.30
+    button31 = B2.31
+    button32 = B2.32
+    led1 = L2.1
+    led2 = L2.2
+    led3 = L2.3
+    led4 = L2.4
+    led5 = L2.5
+    led6 = L2.6
+    led7 = L2.7
+    led8 = L2.8
+    led9 = L2.9
+    led10 = L2.10
+    led11 = L2.11
+    led12 = L2.12
+    led13 = L2.13
+    led14 = L2.14
+    led15 = L2.15
+    led16 = L2.16
+    led17 = L2.17
+    led18 = L2.18
+    led19 = L2.19
+    led20 = L2.20
+    led21 = L2.21
+    led22 = L2.22
+    led23 = L2.23
+    led24 = L2.24
+    led25 = L2.25
+    led26 = L2.26
+    led27 = L2.27
+    led28 = L2.28
+    led29 = L2.29
+    led30 = L2.30
+    led31 = L2.31
+    led32 = L2.32
+    value1  = "Clocktool 1"
+    value2  = "Clocktool 2"
+    value3  = "Clocktool 3"
+    value4  = "Clocktool 4"
+    value5  = "Drums"
+    value6  = "6"
+    value7  = "7"
+    value8  = "8"
+    value9  = "9"
+    value10 = "10"
+    value11 = "11"
+    value12 = "12"
+    value13 = "13"
+    value14 = "14"
+    value15 = "15"
+    value16 = "16"
+    value17 = "17"
+    value18 = "18"
+    value19 = "19"
+    value20 = "20"
+    value21 = "21"
+    value22 = "22"
+    value23 = "23"
+    value24 = "24"
+    value25 = "25"
+    value26 = "26"
+    value27 = "27"
+    value28 = "28"
+    value29 = "29"
+    value30 = "30"
+    value31 = "31"
+    value32 = "32"
+    output = _MENU
 
 [display]
-    #value = _MENUTOT
-    text = _MENUTEXT
+    text = _MENU
     linger = 1

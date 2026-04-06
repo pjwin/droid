@@ -1,41 +1,41 @@
 [motoquencer]
     select = _MENUTOT
     selectat = 21
-    fadermode = S2.1
+    fadermode = S3.1
     clock = I1
     gate = G1
 
 [motoquencer]
     select = _MENUTOT
     selectat = 22
-    fadermode = S2.1
+    fadermode = S3.1
     clock = I1
     gate = G2
 
 [motoquencer]
     select = _MENUTOT
     selectat = 23
-    fadermode = S2.1
+    fadermode = S3.1
     clock = I1
     gate = G3
 
 [motoquencer]
     select = _MENUTOT
     selectat = 24
-    fadermode = S2.1
+    fadermode = S3.1
     clock = I1
     gate = G4
 
 [motoquencer]
     select = _MENUTOT
     selectat = 25
-    fadermode = S2.1
+    fadermode = S3.1
     clock = I1
     gate = G5
 
 [motoquencer]
     select = _MENUTOT
     selectat = 26
-    fadermode = S2.1
+    fadermode = S3.1
     clock = I1
     gate = G6
